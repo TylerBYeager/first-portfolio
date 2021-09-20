@@ -11,22 +11,28 @@
 
 <body>
   
-  <header>
+  <header> <!--created nav links-->
     <h1>Greetings Weary Adventurers!</h1>
     <p>I'm glad you've found your way here. It's dangerous to code alone... click this.</p>
       <nav>
         <ul>
-            <li>About Me</li>
-            <li>Projects</li>
-            <li>Contact</li>  
-          </ul>  
+          <li>
+            <a href="#bio">About Me</a>
+          </li>
+          <li>
+            <a href="#gallery">Projects</a>
+          </li>
+          <li>
+            <a href="#hello">Contact</a>
+          </li>  
+        </ul>  
       </nav>  
   </header>
  
 <main>
 
     <section class="background"> <!--background education and work-->
-        <h2>About Me</h2>
+        <h2 id="bio">About Me</h2>
         <p>Hello! My name is Tyler Brian Yeager. I am a former park ranger currently living in the Bay Area and enrolled in a Full-Stack coding bootcamp through UC Berkeley Extension.</p>
         <p>Allow me to share a bit of my background. I attended the University of Central Arkansas from 2012 to 2016 where I obtained a Bachelor of Science degree in Anthropology.
            Originally I had planned on becoming a famous archaeologist and discovering something that rivaled Carter's discovery of Tutankhamun's tomb. 
@@ -39,7 +45,7 @@
     </section>
 <hr>     
     <section class="work"> <!--Added project titles and links-->
-        <h2>Projects</h2>
+        <h2 id="gallery">Projects</h2>
         <p>I have only been coding for roughly three weeks but I already feel like I am doing things I once considered impossible for me. Here are a few of the projects that I have worked. 
            Personally, I am most proud of the CSS Snippet project as I learned a lot about flexboxes and resolving the final overflow issue with managing 'whitespace' was incredibly satisfying.</p>
         <a href="https://tylerbyeager.github.io/Code-Refactor/">Code Refactor</a> <img>
@@ -48,15 +54,14 @@
     </section>
 <hr>
     <section class=links>
-        <h2>Contact Me!</h2>
-        <p>Should you ever need to contact me, here are some ways to do so.</p>
-        <a placeholder for github>Github</a>
-        <a placeholder for linkedin>Linkedin</a>
-        <a placeholder for instagram>Instagram</a>
-        <a placeholder for facebook>Facebook</a>
-        <a placeholder for email>Wow_d2@hotmail.com</a>
-        <a placeholder for slack>Slack</a>
-    </section> <!--Added some placeholder framing for my portfolio-->
+        <h2 id="Hello">Contact Me!</h2>
+        <p>Should you ever want to contact me, please click any one of the below links!</p>
+        <a href="https://github.com/TylerBYeager/tylerbyeager.github.io">Github</a>
+        <a href="https://www.linkedin.com/in/tyler-yeager-611926213/">Linkedin</a>
+        <a href="https://www.instagram.com/tylerbyeager/">Instagram</a>
+        <a href="https://www.facebook.com/tyler.b.yeager/">Facebook</a>
+        <a href="mailto: wow_d2@hotmail.com">Email</a>
+    </section> <!--Added various contact information links-->
 </main>
 <hr>
 <footer>Good luck on your future adventures.</footer>
