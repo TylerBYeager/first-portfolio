@@ -1,6 +1,7 @@
 .selfie {
     height: 250px;
     width: 200px;
+    border: 10px solid lightskyblue;
 }
 
 .background {
@@ -17,6 +18,11 @@
 .background p {
     font-size: 17px;
     display: flex;
+}
+
+.work img {
+    max-width: 800px;
+    max-height: 900px;
 }
 
 body {
