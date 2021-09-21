@@ -30,14 +30,28 @@
 
 .work img {
     width: 700px;
-    height: 500px;
+    height: 400px;
     display: block;
 }
 
 .work .first {
     width: 800px;
-    height: 600px;
+    height: 500px;
 } 
+
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.links img {
+    width: 125px;
+    height: 125px;
+    justify-content: flex-start;
+    flex-direction: column;
+}
 
 body {
     background: linear-gradient(135deg, rgb(16, 141, 219), rgb(250, 250, 61), rgb(250, 137, 32));
