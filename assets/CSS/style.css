@@ -3,6 +3,19 @@
     width: 200px;
 }
 
+body {
+    background: linear-gradient(135deg, rgb(16, 141, 219), rgb(250, 250, 61), rgb(250, 137, 32));
+    background-size: 400% 400%;
+    animation: pulse 8s ease-in-out infinite;
+}
+
+/*creates a pulsing background color*/
+@keyframes pulse {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}
+
 h1 {
     display: flex;
     justify-content: center;
