@@ -15,8 +15,8 @@ Getting your clone:
 
 ```
 Once you have a working SSH key added to your Github account, go to the Code-Refactor Repository. Click the green "code" button on the top right and clonecopy the @github.com link with the SSH key option to your clipboard. 
-[image placeholder]
 ```
+![clone](https://user-images.githubusercontent.com/89880190/134279382-ffc9d9ac-c79e-49cc-8d32-9f19445a609f.png)
 
 Next: 
 
