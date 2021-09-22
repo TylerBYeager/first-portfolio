@@ -1,7 +1,8 @@
 # First-Portfolio
 This is my attempt at an initial portfolio. This portfolio features a moving color background and heavy use of flexboxes. It showcases the progress that I've made since beginning my coding journey by providing links to a few projects/mini-projects that I have worked on. 
 
-![snapshot]
+![snapshot](https://user-images.githubusercontent.com/89880190/134276169-9a56ee61-800b-4c39-921b-8abf60198aeb.png)
+
 
 ## Getting Started
 
