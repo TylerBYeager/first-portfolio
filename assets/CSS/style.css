@@ -104,6 +104,11 @@ header h2 {
     align-items: center;
 }
 
+footer {
+    text-align: center;
+    font-size: 17px;
+}
+
 
 @media screen and (max-width: 768px) {
     .container-1, .container-2 {
