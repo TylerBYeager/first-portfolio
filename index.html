@@ -1,106 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="assets/CSS/style.css">
-    <title>Tyler's First Portfolio</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="assets/CSS/style.css">
+  <title>Tyler's Updated Portfolio</title>
 </head>
 
 
 <body>
-  
-  <header> <!--created nav links-->
+
+  <header id="header">
+    <!--created nav links-->
     <h1>Greetings Weary Adventurers!</h1>
     <h2>I'm glad you've found your way here. It's dangerous to code alone... click these.</h2>
-      <nav>
-        <ul>
-          <li>
-            <a href="#bio">About Me</a>
-          </li>
-          <li>
-            <a href="#gallery">Projects</a>
-          </li>
-          <li>
-            <a href="#hello">Contact</a>
-          </li>  
-        </ul>  
-      </nav>  
+    <nav>
+      <ul>
+        <li>
+          <a href="#bio">About Me</a>
+        </li>
+        <li>
+          <a href="#gallery">Projects</a>
+        </li>
+        <li>
+          <a href="#hello">Contact</a>
+        </li>
+        <li>
+          <a href="https://docs.google.com/document/d/1XO2U2kxeeJLYjecQlODXGDMiQA2gGnRQNy9umkO3yZM/edit?usp=sharing" target="_blank">Resume</a>
+        </li>
+      </ul>
+    </nav>
   </header>
-<hr> 
-<main>
+  <hr>
+  <main>
 
-  <section class="background"> <!--background education and work-->
-    <h2 id="bio">About Me</h2>
-    <img src="assets/images/new me.jpg" alt="Me at the beach" class="selfie">
-      <h3>Hello!</h3> 
-      <h3>My name is Tyler Brian Yeager. I am a former park ranger currently living in the Bay Area and enrolled in a Full-Stack coding bootcamp through UC Berkeley Extension.</h3>
-      <p>Allow me to share a bit of my background. I attended the University of Central Arkansas from 2012 to 2016 where I obtained a Bachelor of Science degree in Anthropology.
-       Originally I had planned on becoming a famous archaeologist and discovering something that rivaled Carter's discovery of Tutankhamun's tomb. 
-       Well life had different plans and I found myself working a summer season for Arkansas State Parks. I realized that I enjoyed outdoor recreation and decided to pursue that as a career. 
-       Since then I have worked at locations such as Southeast Utah at Bear's Ears National Monument, North-central Colorado, and Northeast Utah where I was fortunate enough to experience new locations, new challenges, new people, and different backgrounds.
-       This career taught me much about being a naturalist, using critical thinking to solve problems in fast-paced environments, and how to deal with public relations. While I enjoyed the work, I had realized that it was no longer as challenging and I wanted something more.
-       I relocated to the Bay Area in May 2021 where I found the perfect opportunity to learn a new skill and challenge myself. I look forward to this journey and wish to take it as far as I can.     
-    </p> 
-  </section>
+    <section class="background">
+      <!--background education and work-->
+      <h2 id="bio">About Me</h2>
+      <img src="assets/images/new me.jpg" alt="Me at the beach" class="selfie">
+      <h3>Hello!</h3>
+      <h3>My name is Tyler Brian Yeager.</h3>
+      <p>Allow me to share a bit of my background. I am 28 years old and originally from Arkansas. There I attended the
+        University of Central Arkansas where I obtained a Bachelor of Science degree in Anthropology.
+        Originally I had planned on becoming a famous archaeologist and discovering something that rivaled Carter's
+        discovery of Tutankhamun's tomb.
+        Well, life had different plans and I found myself working a summer season for Arkansas State Parks. Since then I
+        have worked as a Park Ranger for the Bureau of Land management at locations such as Southeast Utah at Bear's
+        Ears National Monument, North-central Colorado, and Northeast Utah.
+        This career gave me the chance to experience new locations, new challenges, and new individuals from a variety
+        of backgrounds.
+        This career taught me much about being a naturalist, using critical thinking to solve problems in fast-paced
+        environments, how to handle public relations, and how to step into a leadership role.
+        While I enjoyed the work, I had realized that it was no longer as challenging and I wanted something "more". To
+        this end, I moved to the Bay Area, enrolled in a coding bootcamp, and have
+        undertaken the journey to become a fullstack developer. I look forward to learning much more and to start
+        creating things that have practical use.
+      </p>
+    </section>
 
-<hr>  
-  <div class=container-1>
-    <section class="work"> <!--Added project titles and links-->
-      <h2 id="gallery">Projects</h2>
-      <p>I have only been coding for roughly three weeks but I already feel like I am doing things I once considered impossible for me. Here are a few of the projects that I have worked on. 
-         Personally, I am most proud of the CSS Snippet project as I learned a lot about flexboxes and resolving the final overflow issue with managing 'whitespace' was incredibly satisfying.</p>
-        <h3>Code Refactor</h3>
-          <a href="https://tylerbyeager.github.io/Code-Refactor/" target="_blank">
-            <img src="assets/images/refactor.png" class="first" alt="Snapshot of Code Refactor project"></a>
+    <hr>
+    <div class=container-1>
+      <section class="work">
+        <!--Added project titles and links-->
+        <h2 id="gallery">Projects</h2>
+        <p>Here are some of my work projects and a brief descript of each. I like to work on thing that can potentially
+          have a practical use or bring in some amount of monetary gain.</p>
+        <h3>Kitschy: Your Kitchen Helper App</h3>
+        <p>Kitschy began with the singular purpose of making shopping/meal-prepping
+          a much easier experience for our users. The idea is that a user can search thousands of recipes, add their
+          favorites, and, with a click of a button, generate a shopping list that combines
+          all like ingredients between the recipes into a singular amount. Instead of having to worry about if one
+          recipe needs two pounds of chicken and another needing six, Kitschy can tell our users
+          the grand total amount they will need to get at the store in order to create each and every one of their saved
+          meals. In addition, we were able to use Google Firebase to create a cloud sharing
+          feature that will allow users to share shopping lists between friends, family members, roommates, or whomever
+          else might want to use it.</p>
+        <a href="https://starryblue7.github.io/kitschy-app/" target="_blank">
+          <img src="assets/images/Project1.png" alt="Snapshot oF Kitschy Search Results">
+        </a>
+
+        <h3>Handy Man App</h3>
+        <p>Handy Man was an idea that struck me when I had ordered food through an app. I realized that there existed
+          many apps for ordering food when we're hungry or a ride when we need to get to/from somewhere.
+          However, nothing existed to handle spur of the moment home repairs and with the holidays fast approaching,
+          that might be very benficial to have. We've all been in a position where some major home repair was needed
+          ASAP but then we've had to research online for countless hours, search through conflicting reviews, and make a
+          million calls that go unanswered just for us to go with whoever became available first. Handy Man
+          was a way for users to look up a skilled tradesman, or "vendor", by category, see a list of those who have
+          entered into our database, see reviews, and instantly chat with the vendor in order to discuss the
+          repair/project,
+          negotiate price, and set up a day-of start time. The idea was a sort of "Doordash" but for skilled labor. This
+          is a full stack app that showcases all these functions with intention to add gps tracking and monetary
+          exchange
+          in the future. The list of vendors is prepopulated now but a fully developed app would have vendors paying to
+          join our database thereby exposing them to more business.
+        </p>
+        <a href="https://handy-man-1024.herokuapp.com/" target="_blank">
+          <img src="assets/images/Project2.png" alt="Snapshot of Handy Man Vendor Page">
+        </a>
+
+        <h3>Weather Dashboard</h3>
+        <p>This project is pretty simple in function and design. I wanted to practice using the Bootstrap css framework
+          and so I used this project as an excuse to do exactly that. I'll be the first to admit,
+          it isn't a visually appealing app. However, the work that went into figuring out how to get the information I
+          needed from two api calls and then dynamically displaying that information to a user was such a fun challenge.
+          I fully intend to revist this project in the future and improve upon the design.
+        </p>
+        <a href="https://tylerbyeager.github.io/weather-dashboard/" target="_blank">
+          <img src="assets/images/Project3.png" alt="Snapshot of Weather Dashboard">
+        </a>
 
         <h3>Password Generator</h3>
-          <a href="https://tylerbyeager.github.io/password-generator/" target="_blank">
-            <img src="assets/images/generator.png" alt="Snapshot of the Password Generator project"></a>           
-
-        <h3>Landing Page</h3>
-          <a href="https://tylerbyeager.github.io/mini-project-landing-page/" target="_blank">
-            <img src="assets/images/landing-page.png" alt="Snapshot of Mini Landing Page project"></a>
-
-        <h3>CSS Snippet Cheatsheet</h3>
-          <a href="https://tylerbyeager.github.io/css-snippet/" target="_blank">
-            <img src="assets/images/css-snippet.png" alt="Snapshot of CSS Cheatsheet Snippet project"></a>
-
-    </section>
-  </div>
-
-<hr>
-  
-  <div class="container-2">
-    <section>
-      <h2 id="hello">Contact Me!</h2>
-      <p>Should you ever want to contact me, please click any one of the below links!</p>
-      <a href="https://github.com/TylerBYeager/tylerbyeager.github.io" target="_blank">
-        <img src="assets/images/GitHub1.png" alt="Github logo"></a>
-
-      <a href="https://www.linkedin.com/in/tyler-yeager-611926213/" target="_blank">
-        <img src="assets/images/linkedin.png" alt="Linkedin logo"></a>
-  
-      <a href="https://www.instagram.com/tylerbyeager/" target="_blank">
-        <img src="assets/images/instagram.png" alt="Instagram logo"></a>
-
-      <a href="https://www.facebook.com/tyler.b.yeager/" target="_blank">
-        <img src="assets/images/facebook.png" alt="Facebook logo"></a>
-
-      <a href="mailto: wow_d2@hotmail.com">
-        <img src="assets/images/email.png" alt="Windows email logo"></a>
+        <p>A functioning password generator. This project ended up teaching me about Math.Floor and Math.Random
+          which proved a great resource in randomly generating letters and symbols. I've since used this knowledge on
+          other projects.
+        </p>
+        <a href="https://tylerbyeager.github.io/password-generator/" target="_blank">
+          <img src="assets/images/Project4.png" alt="Snapshot of Password Generator">
+        </a>
 
       </section>
-  </div>
+    </div>
 
- </main>
+    <hr>
 
-<hr>
+    <div class="container-2">
+      <section>
+        <h2 id="hello">Contact Me!</h2>
+        <p>If you feel I would make a great fit at your company then please feel free to get in touch by clicking any of the links below or make note of my personal cell number and email.</p>
+          <div>
+            <a href="https://github.com/TylerBYeager" target="_blank">
+                <img src="assets/images/Github2.png" alt="Github logo"></a>
+    
+            <a href="https://www.linkedin.com/in/tyler-yeager-611926213/" target="_blank">
+                <img src="assets/images/linkedin.png" alt="Linkedin logo"></a>
 
-<footer>
-  <h2>Good luck on your future adventures!🧙</h2>
-</footer>
+            <a href="mailto: wow_d2@hotmail.com">
+                <img src="assets/images/email.png" alt="Windows email logo"></a>
+          </div>
+        <h4>Cell Phone: 501-514-7606</h4>       
+        <h4>Email: Wow_d2@hotmail.com</h4>
+      </section>
+    </div>
+
+  </main>
+
+  <hr>
+
+  <footer>
+    <h2>Good luck on your future adventures!🧙</h2>
+    <p>
+      <a href="#header">Click to go back to the top.</a>
+    </p>
+  </footer>
 
 </body>
+
 </html>

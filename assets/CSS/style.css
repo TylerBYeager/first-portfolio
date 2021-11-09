@@ -58,11 +58,11 @@
 }
 /*sets a hover effect for all images that changes when a click is active*/
 img:hover {
-    box-shadow: 5px 5px 5px red;
+    box-shadow: 10px 10px 5px #f52e2e;
 }
 
-img:active {
-    box-shadow: -5px -5px 5px red;
+img:hover:active {
+    box-shadow: -10px -10px 5px #2eacf5;
 }
 /*specifically styles the project images to help with responsiveness*/
 .work img {
