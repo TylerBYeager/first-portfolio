@@ -1,5 +1,5 @@
 # First-Portfolio 
-Hi! My name is Tyler Brian Yeager and I am a Full-Stack developer in training. I am currently enrolled in the full-time Full-Stacking Coding bootcamp through UC Berkeley. The bootcamp began September 14th and ends December 7th. Over my years of work I have proven myself capable of adapting and learning new skills with enough proficiency to match, and sometimes exceed, the skill levels of my senior coworkers. I hope that the projects shown will provide a good amount of insight on how my skills have grown.  
+Hi! My name is Tyler Brian Yeager. I am a former federal Park Ranger turned Full-Stack developer. This is a pretty basic portfolio but I hope that the linked projects give an idea of how my skills how developed and the work that I am interested in. Please reach out if you have any questions. 
 
 ## Details about this project
 
